@@ -1,9 +1,9 @@
-﻿using Worms.engine.data;
+﻿using Asteroids.game.asteroids.names;
+using Worms.engine.data;
 using Worms.engine.game_object.components.particle_system.ranges;
 using Worms.engine.helper;
-using Worms.game.asteroids.names;
 
-namespace Worms.game.asteroids.asteroids; 
+namespace Asteroids.game.asteroids.asteroids; 
 
 public class AsteroidDetails {
     private static readonly AsteroidDetails BIG = new(ListUtils.Of(

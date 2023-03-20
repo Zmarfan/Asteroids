@@ -1,11 +1,11 @@
-﻿using Worms.engine.data;
+﻿using Asteroids.game.asteroids.names;
+using Asteroids.game.asteroids.player;
+using Asteroids.game.asteroids.saucer;
+using Worms.engine.data;
 using Worms.engine.game_object.components.physics.colliders;
 using Worms.engine.game_object.scripts;
-using Worms.game.asteroids.names;
-using Worms.game.asteroids.player;
-using Worms.game.asteroids.saucer;
 
-namespace Worms.game.asteroids.asteroids; 
+namespace Asteroids.game.asteroids.asteroids; 
 
 public class Asteroid : Script {
     public delegate void DestroyedAsteroidDelegate(AsteroidType type);

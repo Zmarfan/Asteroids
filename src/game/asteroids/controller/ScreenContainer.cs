@@ -1,12 +1,12 @@
-﻿using Worms.engine.camera;
+﻿using Asteroids.game.asteroids.names;
+using Worms.engine.camera;
 using Worms.engine.core.window;
 using Worms.engine.data;
 using Worms.engine.game_object.components.physics.colliders;
 using Worms.engine.game_object.scripts;
 using Worms.engine.helper;
-using Worms.game.asteroids.names;
 
-namespace Worms.game.asteroids.controller; 
+namespace Asteroids.game.asteroids.controller; 
 
 public class ScreenContainer: Script {
     private const float FAR_AWAY = 10000;

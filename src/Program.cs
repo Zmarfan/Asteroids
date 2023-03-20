@@ -1,11 +1,11 @@
-﻿using Worms.engine.core;
-using Worms.game.asteroids;
+﻿using Asteroids.game.asteroids;
+using Worms.engine.core;
 
-namespace Worms;
+namespace Asteroids;
 
 internal static class Program {
     private static void Main() {
-        Game game = Asteroids.CreateGame();
+        Game game = AsteroidGame.CreateGame();
         game.Run();
     }
 }

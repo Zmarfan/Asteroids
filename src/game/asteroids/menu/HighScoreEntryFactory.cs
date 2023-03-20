@@ -1,9 +1,9 @@
-﻿using Worms.engine.data;
+﻿using Asteroids.game.asteroids.names;
+using Worms.engine.data;
 using Worms.engine.game_object;
 using Worms.engine.game_object.components.rendering.text_renderer;
-using Worms.game.asteroids.names;
 
-namespace Worms.game.asteroids.menu; 
+namespace Asteroids.game.asteroids.menu; 
 
 public static class HighScoreEntryFactory {
     public static void Create(Transform parent, List<HighScoreEntry> entries) {

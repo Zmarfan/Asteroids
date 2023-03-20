@@ -2,7 +2,7 @@
 using Worms.engine.game_object.scripts;
 using Worms.engine.helper;
 
-namespace Worms.game.asteroids.saucer; 
+namespace Asteroids.game.asteroids.saucer; 
 
 public class SaucerMovement : Script {
     private const float VELOCITY = 230f;

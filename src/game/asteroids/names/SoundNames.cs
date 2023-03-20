@@ -1,4 +1,4 @@
-﻿namespace Worms.game.asteroids.names; 
+﻿namespace Asteroids.game.asteroids.names; 
 
 public static class SoundNames {
     public const string BANG_LARGE = "bangLarge";

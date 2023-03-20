@@ -1,14 +1,14 @@
 ﻿using System.Text;
+using Asteroids.game.asteroids.names;
 using Worms.engine.core.input;
 using Worms.engine.game_object.components.rendering.text_renderer;
 using Worms.engine.game_object.scripts;
 using Worms.engine.scene;
-using Worms.game.asteroids.names;
 
-namespace Worms.game.asteroids.menu; 
+namespace Asteroids.game.asteroids.menu; 
 
 public class EnterHighScore : Script {
-    public static long SCORE = 0;
+    public static long score = 0;
     
     private TextRenderer _textRenderer = null!;
     private int _currentIndex = 0;
@@ -65,7 +65,7 @@ public class EnterHighScore : Script {
         if (entries.Count == HighScoreHandler.MAX_AMOUNT) {
             entries = entries.SkipLast(1).ToList();
         }
-        entries.Add(new HighScoreEntry(_nickname.ToString(), SCORE));
+        entries.Add(new HighScoreEntry(_nickname.ToString(), score));
         entries = entries.OrderByDescending(entry => entry.score).ToList();
         HighScoreHandler.SaveHighScores(entries);
         SceneManager.LoadScene(SceneNames.MAIN_MENU);

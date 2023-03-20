@@ -1,14 +1,13 @@
-﻿using Worms.engine.data;
+﻿using Asteroids.game.asteroids.controller;
+using Asteroids.game.asteroids.menu;
+using Asteroids.game.asteroids.names;
+using Worms.engine.data;
 using Worms.engine.game_object;
 using Worms.engine.game_object.components.physics.colliders;
 using Worms.engine.game_object.components.rendering.text_renderer;
 using Worms.engine.scene;
-using Worms.game.asteroids.controller;
-using Worms.game.asteroids.main_menu;
-using Worms.game.asteroids.menu;
-using Worms.game.asteroids.names;
 
-namespace Worms.game.asteroids.scenes; 
+namespace Asteroids.game.asteroids.scenes; 
 
 public static class HighScoreScene {
     public static Scene GetScene() {

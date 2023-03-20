@@ -1,4 +1,4 @@
-﻿namespace Worms.game.asteroids.menu; 
+﻿namespace Asteroids.game.asteroids.menu; 
 
 public readonly struct HighScoreEntry {
     public readonly string name;

@@ -1,4 +1,4 @@
-﻿namespace Worms.game.asteroids.asteroids; 
+﻿namespace Asteroids.game.asteroids.asteroids; 
 
 public enum AsteroidType {
     BIG,

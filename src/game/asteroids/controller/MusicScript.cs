@@ -1,10 +1,9 @@
-﻿using Worms.engine.data;
-using Worms.engine.game_object;
+﻿using Asteroids.game.asteroids.names;
+using Worms.engine.data;
 using Worms.engine.game_object.components.audio_source;
 using Worms.engine.game_object.scripts;
-using Worms.game.asteroids.names;
 
-namespace Worms.game.asteroids.controller; 
+namespace Asteroids.game.asteroids.controller; 
 
 public class MusicScript : Script {
     private const float MAX_SPEED = 0.2f;

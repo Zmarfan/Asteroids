@@ -1,4 +1,4 @@
-﻿namespace Worms.game.asteroids.names; 
+﻿namespace Asteroids.game.asteroids.names; 
 
 public static class TextureNames {
     public const string BIG_ASTEROID_1 = "big_asteroid_1";

@@ -1,4 +1,6 @@
-﻿using Worms.engine.core;
+﻿using Asteroids.game.asteroids.names;
+using Asteroids.game.asteroids.scenes;
+using Worms.engine.core;
 using Worms.engine.core.assets;
 using Worms.engine.core.audio;
 using Worms.engine.core.cursor;
@@ -8,12 +10,10 @@ using Worms.engine.core.renderer.textures;
 using Worms.engine.core.update.physics.layers;
 using Worms.engine.core.update.physics.settings;
 using Worms.engine.helper;
-using Worms.game.asteroids.names;
-using Worms.game.asteroids.scenes;
 
-namespace Worms.game.asteroids; 
+namespace Asteroids.game.asteroids; 
 
-public static class Asteroids {
+public static class AsteroidGame {
     public static Game CreateGame() {
         return new Game(GameSettingsBuilder
             .Builder()

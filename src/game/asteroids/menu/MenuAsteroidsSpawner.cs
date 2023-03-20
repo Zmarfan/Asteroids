@@ -1,8 +1,8 @@
-﻿using Worms.engine.game_object.scripts;
-using Worms.game.asteroids.asteroids;
-using Worms.game.asteroids.controller;
+﻿using Asteroids.game.asteroids.asteroids;
+using Asteroids.game.asteroids.controller;
+using Worms.engine.game_object.scripts;
 
-namespace Worms.game.asteroids.menu; 
+namespace Asteroids.game.asteroids.menu; 
 
 public class MenuAsteroidsSpawner : Script {
     private ScreenContainer _screenContainer = null!;

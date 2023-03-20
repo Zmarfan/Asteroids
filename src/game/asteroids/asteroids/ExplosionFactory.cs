@@ -1,4 +1,5 @@
-﻿using Worms.engine.data;
+﻿using Asteroids.game.asteroids.names;
+using Worms.engine.data;
 using Worms.engine.game_object;
 using Worms.engine.game_object.components.audio_source;
 using Worms.engine.game_object.components.particle_system;
@@ -8,10 +9,9 @@ using Worms.engine.game_object.components.particle_system.ranges;
 using Worms.engine.game_object.components.particle_system.renderer;
 using Worms.engine.game_object.components.particle_system.shape;
 using Worms.engine.game_object.components.rendering.texture_renderer;
-using Worms.game.asteroids.names;
 using Range = Worms.engine.game_object.components.particle_system.ranges.Range;
 
-namespace Worms.game.asteroids.asteroids; 
+namespace Asteroids.game.asteroids.asteroids; 
 
 public static class ExplosionFactory {
     public static void CreateExplosion(Transform parent, Vector2 position, RangeZero particleCount) {

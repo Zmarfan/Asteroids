@@ -1,4 +1,4 @@
-﻿namespace Worms.game.asteroids.names; 
+﻿namespace Asteroids.game.asteroids.names; 
 
 public static class SceneNames {
     public const string MAIN_MENU = "main_menu";

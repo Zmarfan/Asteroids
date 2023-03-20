@@ -1,4 +1,9 @@
-﻿using Worms.engine.camera;
+﻿using Asteroids.game.asteroids.asteroids;
+using Asteroids.game.asteroids.menu;
+using Asteroids.game.asteroids.names;
+using Asteroids.game.asteroids.player;
+using Asteroids.game.asteroids.saucer;
+using Worms.engine.camera;
 using Worms.engine.core.window;
 using Worms.engine.data;
 using Worms.engine.game_object;
@@ -7,13 +12,8 @@ using Worms.engine.game_object.components.rendering.text_renderer;
 using Worms.engine.game_object.scripts;
 using Worms.engine.helper;
 using Worms.engine.scene;
-using Worms.game.asteroids.asteroids;
-using Worms.game.asteroids.menu;
-using Worms.game.asteroids.names;
-using Worms.game.asteroids.player;
-using Worms.game.asteroids.saucer;
 
-namespace Worms.game.asteroids.controller; 
+namespace Asteroids.game.asteroids.controller; 
 
 public class GameController : Script {
     private static readonly Vector2 SCORE_DISPLAY_OFFSET = new(30, 10);
@@ -79,7 +79,7 @@ public class GameController : Script {
         if (_gameOver) {
             _gameOverTimer.Time += deltaTime;
             if (_gameOverTimer.Expired()) {
-                EnterHighScore.SCORE = _score;
+                EnterHighScore.score = _score;
                 SceneManager.LoadScene(ScoreGetsOnTheHighScore() ? SceneNames.ADD_HIGH_SCORE : SceneNames.MAIN_MENU);
             }
             return;

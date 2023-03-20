@@ -1,6 +1,6 @@
 ﻿using Worms.engine.core.saving;
 
-namespace Worms.game.asteroids.menu; 
+namespace Asteroids.game.asteroids.menu; 
 
 public static class HighScoreHandler {
     public const int MAX_AMOUNT = 10;

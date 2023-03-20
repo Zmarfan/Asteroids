@@ -1,4 +1,4 @@
-﻿namespace Worms.game.asteroids.names; 
+﻿namespace Asteroids.game.asteroids.names; 
 
 public static class InputNames {
     public const string MENU_DOWN = "menuUp";

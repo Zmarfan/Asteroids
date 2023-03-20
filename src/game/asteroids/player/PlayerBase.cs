@@ -1,15 +1,13 @@
-﻿using Worms.engine.core.input;
+﻿using Asteroids.game.asteroids.asteroids;
+using Asteroids.game.asteroids.names;
+using Asteroids.game.asteroids.saucer;
 using Worms.engine.data;
 using Worms.engine.game_object.components.animation.controller;
-using Worms.engine.game_object.components.audio_source;
 using Worms.engine.game_object.components.particle_system.ranges;
 using Worms.engine.game_object.components.physics.colliders;
 using Worms.engine.game_object.scripts;
-using Worms.game.asteroids.asteroids;
-using Worms.game.asteroids.names;
-using Worms.game.asteroids.saucer;
 
-namespace Worms.game.asteroids.player; 
+namespace Asteroids.game.asteroids.player; 
 
 public class PlayerBase : Script {
     public const string START_ANIMATION_NAME = "startAnimation";

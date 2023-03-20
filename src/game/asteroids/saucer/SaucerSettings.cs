@@ -1,7 +1,7 @@
 ﻿using Worms.engine.data;
 using Worms.engine.game_object;
 
-namespace Worms.game.asteroids.saucer; 
+namespace Asteroids.game.asteroids.saucer; 
 
 public readonly struct SaucerSettings {
     public readonly Transform parent;

@@ -1,7 +1,7 @@
 ﻿using Worms.engine.data;
 using Worms.engine.game_object.scripts;
 
-namespace Worms.game.asteroids.shot; 
+namespace Asteroids.game.asteroids.shot; 
 
 public class Shot : Script {
     private const float SPEED = 1500;

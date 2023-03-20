@@ -1,10 +1,10 @@
-﻿using Worms.engine.core.input;
+﻿using Asteroids.game.asteroids.names;
+using Worms.engine.core.input;
 using Worms.engine.game_object.components.rendering.text_renderer;
 using Worms.engine.game_object.scripts;
 using Worms.engine.scene;
-using Worms.game.asteroids.names;
 
-namespace Worms.game.asteroids.main_menu; 
+namespace Asteroids.game.asteroids.menu; 
 
 public class MainMenuController : Script {
     public const string PLAY = "PLAY GAME";

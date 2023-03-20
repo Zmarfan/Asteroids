@@ -1,16 +1,12 @@
-﻿using Worms.engine.core.input;
+﻿using Asteroids.game.asteroids.names;
+using Asteroids.game.asteroids.shot;
+using Worms.engine.core.input;
 using Worms.engine.data;
 using Worms.engine.game_object.components.animation.controller;
 using Worms.engine.game_object.components.audio_source;
-using Worms.engine.game_object.components.particle_system.ranges;
-using Worms.engine.game_object.components.physics.colliders;
 using Worms.engine.game_object.scripts;
-using Worms.game.asteroids.asteroids;
-using Worms.game.asteroids.names;
-using Worms.game.asteroids.saucer;
-using Worms.game.asteroids.shot;
 
-namespace Worms.game.asteroids.player; 
+namespace Asteroids.game.asteroids.player; 
 
 public class PlayerMovement : Script {
     public const string THRUST_ANIMATION_TRIGGER = "thrust";

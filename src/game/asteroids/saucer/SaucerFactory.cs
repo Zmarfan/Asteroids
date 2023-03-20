@@ -1,13 +1,12 @@
-﻿using Worms.engine.core.audio;
+﻿using Asteroids.game.asteroids.names;
+using Worms.engine.core.audio;
 using Worms.engine.data;
 using Worms.engine.game_object;
 using Worms.engine.game_object.components.audio_source;
 using Worms.engine.game_object.components.physics.colliders;
 using Worms.engine.game_object.components.rendering.texture_renderer;
-using Worms.game.asteroids.controller;
-using Worms.game.asteroids.names;
 
-namespace Worms.game.asteroids.saucer; 
+namespace Asteroids.game.asteroids.saucer; 
 
 public static class SaucerFactory {
     private static readonly Vector2[] COLLIDER_VERTICES = {
