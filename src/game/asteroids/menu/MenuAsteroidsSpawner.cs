@@ -1,6 +1,6 @@
 ﻿using Asteroids.game.asteroids.asteroids;
 using Asteroids.game.asteroids.controller;
-using Worms.engine.game_object.scripts;
+using GameEngine.engine.game_object.scripts;
 
 namespace Asteroids.game.asteroids.menu; 
 

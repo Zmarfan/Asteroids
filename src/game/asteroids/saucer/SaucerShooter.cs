@@ -1,13 +1,13 @@
 ﻿using Asteroids.game.asteroids.asteroids;
 using Asteroids.game.asteroids.names;
 using Asteroids.game.asteroids.shot;
-using Worms.engine.data;
-using Worms.engine.game_object;
-using Worms.engine.game_object.components.audio_source;
-using Worms.engine.game_object.components.particle_system.ranges;
-using Worms.engine.game_object.components.physics.colliders;
-using Worms.engine.game_object.scripts;
-using Worms.engine.helper;
+using GameEngine.engine.data;
+using GameEngine.engine.game_object;
+using GameEngine.engine.game_object.components.audio_source;
+using GameEngine.engine.game_object.components.particle_system.ranges;
+using GameEngine.engine.game_object.components.physics.colliders;
+using GameEngine.engine.game_object.scripts;
+using GameEngine.engine.helper;
 
 namespace Asteroids.game.asteroids.saucer; 
 

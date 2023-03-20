@@ -163,12 +163,12 @@
       <None Remove="lib\zlib1.dll" />
       <None Remove="lib\libwebp-7.dll" />
       <None Remove="lib\libogg-0.dll" />
-      <None Remove="lib\Worms.dll" />
+      <None Remove="lib\GameEngine.dll" />
   </ItemGroup>
 
     <ItemGroup>
       <Reference Include="Worms">
-        <HintPath>lib\Worms.dll</HintPath>
+        <HintPath>lib\GameEngine.dll</HintPath>
       </Reference>
     </ItemGroup>
 

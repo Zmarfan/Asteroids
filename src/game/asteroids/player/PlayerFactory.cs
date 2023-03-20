@@ -1,14 +1,14 @@
 ﻿using Asteroids.game.asteroids.names;
-using Worms.engine.core.audio;
-using Worms.engine.data;
-using Worms.engine.game_object;
-using Worms.engine.game_object.components.animation.animation;
-using Worms.engine.game_object.components.animation.composition;
-using Worms.engine.game_object.components.animation.controller;
-using Worms.engine.game_object.components.audio_source;
-using Worms.engine.game_object.components.physics.colliders;
-using Worms.engine.game_object.components.rendering.texture_renderer;
-using Worms.engine.helper;
+using GameEngine.engine.core.audio;
+using GameEngine.engine.data;
+using GameEngine.engine.game_object;
+using GameEngine.engine.game_object.components.animation.animation;
+using GameEngine.engine.game_object.components.animation.composition;
+using GameEngine.engine.game_object.components.animation.controller;
+using GameEngine.engine.game_object.components.audio_source;
+using GameEngine.engine.game_object.components.physics.colliders;
+using GameEngine.engine.game_object.components.rendering.texture_renderer;
+using GameEngine.engine.helper;
 
 namespace Asteroids.game.asteroids.player; 
 

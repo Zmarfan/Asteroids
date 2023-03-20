@@ -1,5 +1,5 @@
-﻿using Worms.engine.data;
-using Worms.engine.game_object;
+﻿using GameEngine.engine.data;
+using GameEngine.engine.game_object;
 
 namespace Asteroids.game.asteroids.saucer; 
 

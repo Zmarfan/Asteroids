@@ -1,9 +1,9 @@
 ﻿using Asteroids.game.asteroids.names;
-using Worms.engine.data;
-using Worms.engine.game_object;
-using Worms.engine.game_object.components.physics.colliders;
-using Worms.engine.game_object.components.rendering.texture_renderer;
-using Worms.engine.helper;
+using GameEngine.engine.data;
+using GameEngine.engine.game_object;
+using GameEngine.engine.game_object.components.physics.colliders;
+using GameEngine.engine.game_object.components.rendering.texture_renderer;
+using GameEngine.engine.helper;
 
 namespace Asteroids.game.asteroids.asteroids; 
 

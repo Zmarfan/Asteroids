@@ -1,7 +1,7 @@
 ﻿using Asteroids.game.asteroids.names;
-using Worms.engine.data;
-using Worms.engine.game_object.components.audio_source;
-using Worms.engine.game_object.scripts;
+using GameEngine.engine.data;
+using GameEngine.engine.game_object.components.audio_source;
+using GameEngine.engine.game_object.scripts;
 
 namespace Asteroids.game.asteroids.controller; 
 

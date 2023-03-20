@@ -1,15 +1,15 @@
 ﻿using Asteroids.game.asteroids.names;
-using Worms.engine.data;
-using Worms.engine.game_object;
-using Worms.engine.game_object.components.audio_source;
-using Worms.engine.game_object.components.particle_system;
-using Worms.engine.game_object.components.particle_system.emission;
-using Worms.engine.game_object.components.particle_system.particles;
-using Worms.engine.game_object.components.particle_system.ranges;
-using Worms.engine.game_object.components.particle_system.renderer;
-using Worms.engine.game_object.components.particle_system.shape;
-using Worms.engine.game_object.components.rendering.texture_renderer;
-using Range = Worms.engine.game_object.components.particle_system.ranges.Range;
+using GameEngine.engine.data;
+using GameEngine.engine.game_object;
+using GameEngine.engine.game_object.components.audio_source;
+using GameEngine.engine.game_object.components.particle_system;
+using GameEngine.engine.game_object.components.particle_system.emission;
+using GameEngine.engine.game_object.components.particle_system.particles;
+using GameEngine.engine.game_object.components.particle_system.ranges;
+using GameEngine.engine.game_object.components.particle_system.renderer;
+using GameEngine.engine.game_object.components.particle_system.shape;
+using GameEngine.engine.game_object.components.rendering.texture_renderer;
+using Range = GameEngine.engine.game_object.components.particle_system.ranges.Range;
 
 namespace Asteroids.game.asteroids.asteroids; 
 

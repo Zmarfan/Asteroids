@@ -1,10 +1,10 @@
 ﻿using Asteroids.game.asteroids.names;
-using Worms.engine.camera;
-using Worms.engine.core.window;
-using Worms.engine.data;
-using Worms.engine.game_object.components.physics.colliders;
-using Worms.engine.game_object.scripts;
-using Worms.engine.helper;
+using GameEngine.engine.camera;
+using GameEngine.engine.core.window;
+using GameEngine.engine.data;
+using GameEngine.engine.game_object.components.physics.colliders;
+using GameEngine.engine.game_object.scripts;
+using GameEngine.engine.helper;
 
 namespace Asteroids.game.asteroids.controller; 
 

@@ -3,15 +3,15 @@ using Asteroids.game.asteroids.menu;
 using Asteroids.game.asteroids.names;
 using Asteroids.game.asteroids.player;
 using Asteroids.game.asteroids.saucer;
-using Worms.engine.camera;
-using Worms.engine.core.window;
-using Worms.engine.data;
-using Worms.engine.game_object;
-using Worms.engine.game_object.components.audio_source;
-using Worms.engine.game_object.components.rendering.text_renderer;
-using Worms.engine.game_object.scripts;
-using Worms.engine.helper;
-using Worms.engine.scene;
+using GameEngine.engine.camera;
+using GameEngine.engine.core.window;
+using GameEngine.engine.data;
+using GameEngine.engine.game_object;
+using GameEngine.engine.game_object.components.audio_source;
+using GameEngine.engine.game_object.components.rendering.text_renderer;
+using GameEngine.engine.game_object.scripts;
+using GameEngine.engine.helper;
+using GameEngine.engine.scene;
 
 namespace Asteroids.game.asteroids.controller; 
 

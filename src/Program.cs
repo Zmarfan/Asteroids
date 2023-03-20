@@ -1,5 +1,5 @@
 ﻿using Asteroids.game.asteroids;
-using Worms.engine.core;
+using GameEngine.engine.core;
 
 namespace Asteroids;
 

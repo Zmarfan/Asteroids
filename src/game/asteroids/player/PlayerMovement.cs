@@ -1,10 +1,10 @@
 ﻿using Asteroids.game.asteroids.names;
 using Asteroids.game.asteroids.shot;
-using Worms.engine.core.input;
-using Worms.engine.data;
-using Worms.engine.game_object.components.animation.controller;
-using Worms.engine.game_object.components.audio_source;
-using Worms.engine.game_object.scripts;
+using GameEngine.engine.core.input;
+using GameEngine.engine.data;
+using GameEngine.engine.game_object.components.animation.controller;
+using GameEngine.engine.game_object.components.audio_source;
+using GameEngine.engine.game_object.scripts;
 
 namespace Asteroids.game.asteroids.player; 
 

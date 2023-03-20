@@ -1,8 +1,8 @@
 ﻿using Asteroids.game.asteroids.names;
-using Worms.engine.core.input;
-using Worms.engine.game_object.components.rendering.text_renderer;
-using Worms.engine.game_object.scripts;
-using Worms.engine.scene;
+using GameEngine.engine.core.input;
+using GameEngine.engine.game_object.components.rendering.text_renderer;
+using GameEngine.engine.game_object.scripts;
+using GameEngine.engine.scene;
 
 namespace Asteroids.game.asteroids.menu; 
 

@@ -1,5 +1,5 @@
-﻿using Worms.engine.data;
-using Worms.engine.game_object.scripts;
+﻿using GameEngine.engine.data;
+using GameEngine.engine.game_object.scripts;
 
 namespace Asteroids.game.asteroids.shot; 
 

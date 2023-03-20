@@ -1,11 +1,11 @@
 ﻿using Asteroids.game.asteroids.controller;
 using Asteroids.game.asteroids.menu;
 using Asteroids.game.asteroids.names;
-using Worms.engine.data;
-using Worms.engine.game_object;
-using Worms.engine.game_object.components.physics.colliders;
-using Worms.engine.game_object.components.rendering.text_renderer;
-using Worms.engine.scene;
+using GameEngine.engine.data;
+using GameEngine.engine.game_object;
+using GameEngine.engine.game_object.components.physics.colliders;
+using GameEngine.engine.game_object.components.rendering.text_renderer;
+using GameEngine.engine.scene;
 
 namespace Asteroids.game.asteroids.scenes; 
 

@@ -1,7 +1,7 @@
 ﻿using Asteroids.game.asteroids.names;
-using Worms.engine.data;
-using Worms.engine.game_object.components.particle_system.ranges;
-using Worms.engine.helper;
+using GameEngine.engine.data;
+using GameEngine.engine.game_object.components.particle_system.ranges;
+using GameEngine.engine.helper;
 
 namespace Asteroids.game.asteroids.asteroids; 
 

@@ -1,15 +1,15 @@
 ﻿using Asteroids.game.asteroids.names;
 using Asteroids.game.asteroids.scenes;
-using Worms.engine.core;
-using Worms.engine.core.assets;
-using Worms.engine.core.audio;
-using Worms.engine.core.cursor;
-using Worms.engine.core.gizmos;
-using Worms.engine.core.input.listener;
-using Worms.engine.core.renderer.textures;
-using Worms.engine.core.update.physics.layers;
-using Worms.engine.core.update.physics.settings;
-using Worms.engine.helper;
+using GameEngine.engine.core;
+using GameEngine.engine.core.assets;
+using GameEngine.engine.core.audio;
+using GameEngine.engine.core.cursor;
+using GameEngine.engine.core.gizmos;
+using GameEngine.engine.core.input.listener;
+using GameEngine.engine.core.renderer.textures;
+using GameEngine.engine.core.update.physics.layers;
+using GameEngine.engine.core.update.physics.settings;
+using GameEngine.engine.helper;
 
 namespace Asteroids.game.asteroids; 
 
