@@ -77,36 +77,36 @@ public static class AsteroidGame {
         return AssetsBuilder
             .Builder()
             .AddTextures(ListUtils.Of(
-                new AssetDeclaration(Path("asteroids\\textures\\big_asteroid_1.png"), TextureNames.BIG_ASTEROID_1),
-                new AssetDeclaration(Path("asteroids\\textures\\big_asteroid_2.png"), TextureNames.BIG_ASTEROID_2),
-                new AssetDeclaration(Path("asteroids\\textures\\big_asteroid_3.png"), TextureNames.BIG_ASTEROID_3),
-                new AssetDeclaration(Path("asteroids\\textures\\medium_asteroid_1.png"), TextureNames.MEDIUM_ASTEROID_1),
-                new AssetDeclaration(Path("asteroids\\textures\\medium_asteroid_2.png"), TextureNames.MEDIUM_ASTEROID_2),
-                new AssetDeclaration(Path("asteroids\\textures\\medium_asteroid_3.png"), TextureNames.MEDIUM_ASTEROID_3),
-                new AssetDeclaration(Path("asteroids\\textures\\small_asteroid_1.png"), TextureNames.SMALL_ASTEROID_1),
-                new AssetDeclaration(Path("asteroids\\textures\\small_asteroid_2.png"), TextureNames.SMALL_ASTEROID_2),
-                new AssetDeclaration(Path("asteroids\\textures\\small_asteroid_3.png"), TextureNames.SMALL_ASTEROID_3),
-                new AssetDeclaration(Path("asteroids\\textures\\player.png"), TextureNames.PLAYER),
-                new AssetDeclaration(Path("asteroids\\textures\\enemy.png"), TextureNames.ENEMY),
-                new AssetDeclaration(Path("asteroids\\textures\\shot.png"), TextureNames.SHOT),
-                new AssetDeclaration(Path("asteroids\\textures\\fragment.png"), TextureNames.FRAGMENT),
-                new AssetDeclaration(Path("asteroids\\textures\\ship_fragment.png"), TextureNames.SHIP_FRAGMENT)
+                new AssetDeclaration(Path("textures\\big_asteroid_1.png"), TextureNames.BIG_ASTEROID_1),
+                new AssetDeclaration(Path("textures\\big_asteroid_2.png"), TextureNames.BIG_ASTEROID_2),
+                new AssetDeclaration(Path("textures\\big_asteroid_3.png"), TextureNames.BIG_ASTEROID_3),
+                new AssetDeclaration(Path("textures\\medium_asteroid_1.png"), TextureNames.MEDIUM_ASTEROID_1),
+                new AssetDeclaration(Path("textures\\medium_asteroid_2.png"), TextureNames.MEDIUM_ASTEROID_2),
+                new AssetDeclaration(Path("textures\\medium_asteroid_3.png"), TextureNames.MEDIUM_ASTEROID_3),
+                new AssetDeclaration(Path("textures\\small_asteroid_1.png"), TextureNames.SMALL_ASTEROID_1),
+                new AssetDeclaration(Path("textures\\small_asteroid_2.png"), TextureNames.SMALL_ASTEROID_2),
+                new AssetDeclaration(Path("textures\\small_asteroid_3.png"), TextureNames.SMALL_ASTEROID_3),
+                new AssetDeclaration(Path("textures\\player.png"), TextureNames.PLAYER),
+                new AssetDeclaration(Path("textures\\enemy.png"), TextureNames.ENEMY),
+                new AssetDeclaration(Path("textures\\shot.png"), TextureNames.SHOT),
+                new AssetDeclaration(Path("textures\\fragment.png"), TextureNames.FRAGMENT),
+                new AssetDeclaration(Path("textures\\ship_fragment.png"), TextureNames.SHIP_FRAGMENT)
             ))
             .AddAudios(ListUtils.Of(
-                new AssetDeclaration(Path("asteroids\\sounds\\bangLarge.wav"), SoundNames.BANG_LARGE),
-                new AssetDeclaration(Path("asteroids\\sounds\\bangMedium.wav"), SoundNames.BANG_MEDIUM),
-                new AssetDeclaration(Path("asteroids\\sounds\\bangSmall.wav"), SoundNames.BANG_SMALL),
-                new AssetDeclaration(Path("asteroids\\sounds\\beat1.wav"), SoundNames.BEAT_1),
-                new AssetDeclaration(Path("asteroids\\sounds\\beat2.wav"), SoundNames.BEAT_2),
-                new AssetDeclaration(Path("asteroids\\sounds\\extraLife.wav"), SoundNames.EXTRA_LIFE),
-                new AssetDeclaration(Path("asteroids\\sounds\\fire.wav"), SoundNames.FIRE),
-                new AssetDeclaration(Path("asteroids\\sounds\\saucerBig.wav"), SoundNames.SAUCER_BIG),
-                new AssetDeclaration(Path("asteroids\\sounds\\saucerSmall.wav"), SoundNames.SAUCER_SMALL),
-                new AssetDeclaration(Path("asteroids\\sounds\\thrust.wav"), SoundNames.THRUST)
+                new AssetDeclaration(Path("sounds\\bangLarge.wav"), SoundNames.BANG_LARGE),
+                new AssetDeclaration(Path("sounds\\bangMedium.wav"), SoundNames.BANG_MEDIUM),
+                new AssetDeclaration(Path("sounds\\bangSmall.wav"), SoundNames.BANG_SMALL),
+                new AssetDeclaration(Path("sounds\\beat1.wav"), SoundNames.BEAT_1),
+                new AssetDeclaration(Path("sounds\\beat2.wav"), SoundNames.BEAT_2),
+                new AssetDeclaration(Path("sounds\\extraLife.wav"), SoundNames.EXTRA_LIFE),
+                new AssetDeclaration(Path("sounds\\fire.wav"), SoundNames.FIRE),
+                new AssetDeclaration(Path("sounds\\saucerBig.wav"), SoundNames.SAUCER_BIG),
+                new AssetDeclaration(Path("sounds\\saucerSmall.wav"), SoundNames.SAUCER_SMALL),
+                new AssetDeclaration(Path("sounds\\thrust.wav"), SoundNames.THRUST)
             ))
             .AddFonts(ListUtils.Of(
-                new AssetDeclaration(Path("asteroids\\fonts\\Pixeled.ttf"), FontNames.MAIN),
-                new AssetDeclaration(Path("asteroids\\fonts\\RoadPixel.ttf"), FontNames.TITLE)
+                new AssetDeclaration(Path("fonts\\Pixeled.ttf"), FontNames.MAIN),
+                new AssetDeclaration(Path("fonts\\RoadPixel.ttf"), FontNames.TITLE)
             ))
             .Build();
     }
