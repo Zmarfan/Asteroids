@@ -1,4 +1,4 @@
-﻿using Asteroids.game.asteroids;
+﻿using Asteroids.game;
 using GameEngine.engine.core;
 
 namespace Asteroids;

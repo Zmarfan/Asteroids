@@ -9,9 +9,11 @@ using GameEngine.engine.core.input.listener;
 using GameEngine.engine.core.renderer.textures;
 using GameEngine.engine.core.update.physics.layers;
 using GameEngine.engine.core.update.physics.settings;
+using GameEngine.engine.data;
 using GameEngine.engine.helper;
+using GameEngine.engine.window;
 
-namespace Asteroids.game.asteroids; 
+namespace Asteroids.game; 
 
 public static class AsteroidGame {
     public static Game CreateGame() {
@@ -20,12 +22,16 @@ public static class AsteroidGame {
             .SetBuildMode()
             .SetTitle("Asteroids")
             .SetAssets(DefineAssets())
+            .SetWindowSettings(WindowSettingsBuilder
+                .Builder()
+                .SetResolution(new Vector2Int(1280, 720))
+                .SetAllowFullscreen(false)
+                .Build()
+            )
             .SetAudioSettings(new AudioSettings(Volume.Max(), ListUtils.Of(
                 new AudioChannel(ChannelNames.EFFECTS, Volume.Max()),
                 new AudioChannel(ChannelNames.MUSIC, Volume.Max())
             )))
-            .SetWindowWidth(1280)   
-            .SetWindowHeight(720)
             .AddScenes(ListUtils.Of(MainMenuScene.GetScene(), AddHighScoreScene.GetScene(), HighScoreScene.GetScene(), GameScene.GetScene()))
             .AddInputListeners(ListUtils.Of(
                 InputListenerBuilder
@@ -62,7 +68,7 @@ public static class AsteroidGame {
                 .AddLayer(LayerNames.PLAY_AREA_OBJECT, ListUtils.Of(LayerNames.PLAY_AREA_OBJECT))
                 .Build()
             )
-            .SetCursorSettings(new CursorSettings(false))
+            .SetCursorSettings(new CursorSettings(false, false))
             .SetGizmoSettings(GizmoSettingsBuilder
                 .Builder()
                 .ShowBoundingBoxes(false)
